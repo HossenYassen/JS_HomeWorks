@@ -15,7 +15,8 @@ if ("0") {
     alert('Hello');
 }
 /* Will Be Alert?
-Yes, since "0" is not an empty string so js will consider it as true, and the condition in the if statement will be satisfied
+Yes, since "0" is not an empty string so js will consider it as true, 
+and the condition in the if statement will be satisfied
 */
 
 /************************************************************************************/
@@ -61,7 +62,7 @@ console.log("הציון הוא:", grade);
 // The user should type only digits
 
 let ans = prompt("Enter a number:");
-// Maybe this loop is not required in this                                     task, but if the input is always valid so it will never
+// Maybe this loop is not required in this task, but if the input is always valid so it will never
 // activate so optionally i will leave it to me more solid code
 while (isNaN(ans)) {
     alert("Invalid input! Please Enter a number again:");
