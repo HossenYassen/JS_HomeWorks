@@ -1,8 +1,8 @@
-//-----------------------------------
-//  Submitters' Names:              |
-// * Hossen Yassen - חוסין יאסין   |
-// * Celien Jammal - סילין ג'מאל   |
-//-----------------------------------
+//------------------------------------
+//  Submittersط Names:               |
+// * Hossen Yassen - חוסין יאסין         |
+// * Celien Jammal - סילין ג'מאל        |
+//------------------------------------
 
 
 /************************************************************************************
@@ -263,8 +263,7 @@ Yes, because i++ or ++i is implemented at the end of each for iteration which is
 //                                     Task #9
 
 // Using for loop, printing to the console the even numbers from 2 to 10
-for (let i = 2; i <= 10; i++) {
-    if (i % 2 === 0)
+for (let i = 2; i <= 10; i+=2) {
         console.log(i);
 }
 
