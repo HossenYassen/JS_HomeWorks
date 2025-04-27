@@ -87,37 +87,75 @@ else
 
 //                                      Task #7
 
+// We have to replace all the '-' in the following string to '.' with replace function
 
+let task7Str = "1-2-3-4-5";
+while(task7Str.includes('-'))
+{
+    task7Str = task7Str.replace('-', '.');
+}
+console.log(task7Str);
 
 /************************************************************************************/
 
 //                                      Task #8
 
+// We have to replace all the '-' in the following string to '.' with replaceAll function
 
+const task8Str = "1-2-3-4-5";
+console.log(task8Str.replaceAll('-','.'));
 
 /************************************************************************************/
 
 //                                      Task #9
 
+const task9Str = "sdfwe";
+console.log(task9Str.substring(4, 2)); // fw
+// This because substring method is rearrange the 4, 2 e.g: substring(2, 4)
+// to make it work just fine without errors
 
 
 /************************************************************************************/
 
 //                                      Task #10
 
+// Should print to the console the learning work with these three methods:
+
+const task10Str = "I'm learning javascript!";
+
+// Method 1: using substr method:
+console.log(task10Str.substr(4, 8));
+
+// Method 2: using substring method:
+console.log(task10Str.substring(4, 12));
+
+// Method 3: using slice method:
+console.log(task10Str.slice(4, 12));
 
 
 /************************************************************************************/
 
 //                                      Task #11
 
+// Check if this line starts with 'http://' (use indexOf)
 
+const task11Str = 'http://www.notion.so/String-820cf1e906884d8fb9c02236fe1c6dcb/';
+if(task11Str.indexOf("http://") === 0)
+    console.log("The string does start with 'http://'");
+else
+    console.log("The string does NOT start with 'http://'");
 
 /************************************************************************************/
 
 //                                      Task #12
 
+// Check if this line ends with '.html' (use indexOf)
 
+const task12Str = 'https://www.notion.html';
+if(task12Str.indexOf(".html") === (task12Str.length - ".html".length))
+    console.log("The string does end with '.html'");
+else
+    console.log("The string does NOT end with '.html'");
 
 /************************************************************************************/
 
