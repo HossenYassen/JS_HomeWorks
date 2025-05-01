@@ -1,7 +1,7 @@
 //------------------------------------
-//  Submitters' Names:               |
-// * Hossen Yassen - חוסין יאסין    |
-// * Celien Jammal - סילין ג'מאל    |
+//  Submitters' Names:
+// * Hossen Yassen - חוסין יאסין
+// * Celien Jammal - סילין ג'מאל
 //------------------------------------
 
 
@@ -161,24 +161,45 @@ else
 
 //                                      Task #13
 
+const task13Str = 'ab cd cd cd ef';
+// returns the index which the last appearance of the 'cd' substring in the whole task13Str
+console.log(str.lastIndexOf('cd'));     // 9
+// returns the index which the last appearance of the 'cd' substring in the 'ab cd cd' task13Str
+console.log(str.lastIndexOf('cd', 8)); //  6 
+
 
 
 /************************************************************************************/
 
 //                                      Task #14
 
+const task14Str = 'abcde';
+console.log(task14Str.startsWith('abc'));     // true
+console.log(task14Str.startsWith('xxx'));     // false
+console.log(task14Str.startsWith('bc', 1));   // true
 
 
 /************************************************************************************/
 
 //                                      Task #15
 
+const task15Str = 'abcde';
+console.log(task15Str.endsWith('cde'));     // true
+console.log(task15Str.endsWith('xxx'));     // false
+console.log(task15Str.endsWith('bc', 3));   // true
 
 
 /************************************************************************************/
 
 //                                      Task #16
 
+let task16Str = 'ab-cd-ef';
+console.log(task16Str.split('-'));      // ["ab", "cd", "ef"]
+console.log(task16Str.split('-', 2));   // ["ab, "cd"]
+console.log(task16Str.split(''));       // ["a", "b", "-", "c", "d", "-", "e", "f"] 
+console.log(task16Str.split('', 3));    // ["a", "b", "-"]
 
+let task16Str2 = '12345';
+console.log(task16Str2.split(''));      // ["1", "2", "3", "4", "5"]
 
 /************************************************************************************/
