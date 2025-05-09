@@ -1,4 +1,4 @@
-# Homework 1 | JavaScript
+# Homeworks | JavaScript
 ## Submitters' Names:
 ###   • Hossen Yassen
 ###   • Celien Jammal
