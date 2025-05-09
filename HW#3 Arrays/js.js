@@ -6,10 +6,15 @@
 
 
 /************************************************************************************
-*                                    
+*                                        Methods
 ************************************************************************************/
 
-//                                     Task #
+//                                        Task #5
+
+// We have to remove "banana" from the array in replace it with "blueberry"
+// and "blackberry"
+
+const fruits = ["apple", "banana", "cherry", "date"];
 
 
 
