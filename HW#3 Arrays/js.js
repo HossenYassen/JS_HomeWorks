@@ -157,9 +157,10 @@ console.log(result ? "Yes, there is a product that is out of stock"
 // Checks if all teh students pass the exam
 const grades = [72, 85, 90, 67, 58];
 // במקרה הזה - צריך להחזיר false
-const result = grades.every((grade) => grade >== 60);
+const result1 = grades.every((grade) => grade >= 60);
 console.log(result ? "Yes, all the students pass" 
                    : "No, not all the students pass");
+console.log(result1);
 
 /************************************************************************************/
 //                                     Task #19
